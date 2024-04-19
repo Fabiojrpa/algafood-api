@@ -11,7 +11,6 @@ public class AtivacaoClienteService {
 
     public AtivacaoClienteService(Notificador notificador) {
         this.notificador = notificador;
-        System.out.printf("Ativacao clienteservice" + notificador);
     }
 
     public void ativar(Cliente cliente) {
